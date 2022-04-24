@@ -1,4 +1,4 @@
-package com.minseoklim.messagepropertiescheck
+package com.minseoklim.filedownload
 
 import org.junit.jupiter.api.Test
 import org.springframework.beans.factory.annotation.Autowired
@@ -10,12 +10,12 @@ import java.io.File
 import java.io.FileReader
 
 @SpringBootTest
-class MessagePropertiesCheckApplicationTests {
+internal class MessagePropertyTest {
     @Autowired
     private lateinit var messageSource: ResourceBundleMessageSource
 
     @Test
-    fun 메세지_프로퍼티_비교() {
+    internal fun 메세지_프로퍼티_비교() {
         val basename = messageSource.basenameSet.single()
         val messageDirectory = ClassPathResource(basename.substringBefore(File.separator)).file
 

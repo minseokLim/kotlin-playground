@@ -1,4 +1,4 @@
-package com.minseoklim.filedownload.domain
+package com.minseoklim.kotlinplayground.domain
 
 import org.apache.commons.io.IOUtils
 import org.slf4j.LoggerFactory

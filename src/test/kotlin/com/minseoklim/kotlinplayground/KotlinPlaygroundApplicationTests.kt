@@ -1,10 +1,10 @@
-package com.minseoklim.filedownload
+package com.minseoklim.kotlinplayground
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class FileDownloadApplicationTests {
+class KotlinPlaygroundApplicationTests {
 
     @Test
     fun contextLoads() {

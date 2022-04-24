@@ -1,11 +1,11 @@
-package com.minseoklim.filedownload
+package com.minseoklim.kotlinplayground
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class FileDownloadApplication
+class KotlinPlaygroundApplication
 
 fun main(args: Array<String>) {
-    runApplication<FileDownloadApplication>(*args)
+    runApplication<KotlinPlaygroundApplication>(*args)
 }
